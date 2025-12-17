@@ -1,0 +1,91 @@
+/* ===== GOOGLE FONTS ===== */
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;600&family=Inter:wght@400;600;700&display=swap');
+
+/* ===== BASE STYLES ===== */
+body {
+  margin: 0;
+  font-family: 'Inter', sans-serif;
+  color: #1f2937;
+  background: #faf7f5;
+  line-height: 1.7;
+}
+
+/* ===== LAYOUT ===== */
+.container {
+  max-width: 900px;
+  margin: auto;
+  padding: 24px;
+}
+
+/* ===== HEADER / NAV ===== */
+.topbar {
+  background: #ffffff;
+  border-bottom: 1px solid #e5e7eb;
+}
+
+.topbar h1 {
+  margin: 0;
+  font-family: 'Playfair Display', serif;
+  letter-spacing: 2px;
+  font-size: 26px;
+}
+
+.nav {
+  margin-top: 10px;
+}
+
+.nav a {
+  text-decoration: none;
+  font-weight: 600;
+  color: #374151;
+  margin-right: 16px;
+  padding: 8px 12px;
+  border-radius: 999px;
+  transition: background 0.2s ease;
+}
+
+.nav a:hover {
+  background: #f3e8ff;
+}
+
+/* ===== SECTIONS ===== */
+.section {
+  margin: 50px 0;
+}
+
+.section h2 {
+  font-family: 'Playfair Display', serif;
+  font-size: 32px;
+  margin-bottom: 10px;
+  color: #111827;
+}
+
+/* ===== PROFILE IMAGE STYLING ===== */
+.profile-card {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+.profile-photo {
+  width: 150px;
+  height: 150px;
+  object-fit: cover;
+  border-radius: 50%;
+  border: 4px solid #f3e8ff;
+  box-shadow: 0 10px 24px rgba(0,0,0,0.15);
+}
+
+/* Mobile-friendly layout */
+@media (max-width: 600px) {
+  .profile-card {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .profile-photo {
+    width: 120px;
+    height: 120px;
+  }
+}
+

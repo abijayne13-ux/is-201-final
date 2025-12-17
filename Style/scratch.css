@@ -1,0 +1,145 @@
+/* ===== GOOGLE FONTS (match style.css) ===== */
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;600&family=Inter:wght@400;600;700&display=swap');
+
+/* ===== BASE ===== */
+* { box-sizing: border-box; }
+
+body {
+  margin: 0;
+  font-family: 'Inter', sans-serif;   /* font family requirement */
+  color: #1f2937;                      /* font color requirement */
+  background: #faf7f5;                 /* custom background color requirement */
+  line-height: 1.7;
+}
+
+.wrap {
+  max-width: 950px;
+  margin: 0 auto;
+  padding: 24px;
+}
+
+/* ===== HEADER ===== */
+.scratch-header {
+  background: #ffffff;
+  border-bottom: 1px solid #e5e7eb;
+}
+
+.scratch-header .wrap {
+  padding-top: 26px;
+  padding-bottom: 22px;
+}
+
+.scratch-header h1 {
+  margin: 0 0 8px;
+  font-family: 'Playfair Display', serif;
+  letter-spacing: 1px;
+  font-size: 34px;
+}
+
+.scratch-header p {
+  margin: 0 0 12px;
+  color: #6b7280;
+}
+
+/* NAV LINKS */
+.scratch-header nav a {
+  display: inline-block;
+  text-decoration: none;
+  font-weight: 600;
+  color: #374151;
+  margin-right: 12px;
+  padding: 8px 12px;
+  border-radius: 999px;
+  transition: background 0.2s ease;
+  border: 1px solid #f0e9e6;
+  background: #ffffff;
+}
+
+.scratch-header nav a:hover {
+  background: #f3e8ff;
+}
+
+/* ===== “CUTE BOXES” (your blocks/divs) ===== */
+.block {
+  background: #ffffff;
+  border-radius: 20px;
+  padding: 22px;
+  margin: 18px 0;
+  box-shadow: 0 12px 30px rgba(0,0,0,0.08);
+  border: 1px solid #f0e9e6;
+}
+
+/* Headings in each block */
+.block h2 {
+  margin: 0 0 10px;
+  font-family: 'Playfair Display', serif;
+  font-size: 26px;
+  color: #111827;
+}
+
+/* Links */
+a {
+  color: #7c3aed;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+/* ===== LIST STYLING ===== */
+ol, ul {
+  padding-left: 22px;
+}
+
+li {
+  margin-bottom: 6px;
+}
+
+/* ===== IMAGE ===== */
+img {
+  width: 100%;
+  max-width: 650px;
+  border-radius: 16px;
+  border: 1px solid #f0e9e6;
+  display: block;
+  margin-top: 10px;
+}
+
+/* ===== RESPONSIVE YOUTUBE EMBED ===== */
+.video-container {
+  position: relative;
+  padding-bottom: 56.25%;
+  height: 0;
+  overflow: hidden;
+  margin-top: 12px;
+  border-radius: 16px;
+  border: 1px solid #f0e9e6;
+  box-shadow: 0 10px 22px rgba(0,0,0,0.08);
+}
+
+.video-container iframe {
+  position: absolute;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+}
+
+/* ===== TABLEAU BOX ===== */
+.tableauPlaceholder {
+  margin-top: 12px;
+  border-radius: 16px;
+  overflow: hidden;
+  border: 1px solid #f0e9e6;
+  box-shadow: 0 10px 22px rgba(0,0,0,0.08);
+
+/* CENTER IMAGE ON SCRATCH PAGE */
+.center-image {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  max-width: 600px;
+}
+
+}
